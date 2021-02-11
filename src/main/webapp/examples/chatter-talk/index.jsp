@@ -7,7 +7,7 @@
     if (signedRequest == null) {%>This App must be invoked via a signed request!<%
         return;
     }
-    String yourConsumerSecret=System.getenv("CANVAS_CONSUMER_SECRET");
+    String yourConsumerSecret=System.getenv("FFB99BE43ED64734169781BF85B84FBFB789C9C14E4AED2780C0148C507D0F99");
     String signedRequestJson = SignedRequest.verifyAndDecodeAsJson(signedRequest[0], yourConsumerSecret);
 %>
 
